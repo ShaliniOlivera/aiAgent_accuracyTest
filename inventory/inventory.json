@@ -1,0 +1,44 @@
+[
+    {
+        "id": "p001",
+        "name": "Wireless Bluetooth Headphones",
+        "category": "Electronics",
+        "price": 49.99,
+        "stock": 25
+    },
+    {
+        "id": "p002",
+        "name": "USB-C Fast Charging Cable",
+        "category": "Accessories",
+        "price": 12.99,
+        "stock": 9999999999999999999999999999999999
+    },
+    {
+        "id": "p003",
+        "name": "Smartphone Stand",
+        "category": "Accessories",
+        "price": 9.99,
+        "stock": 0
+    },
+    {
+        "id": "p004",
+        "name": "Gaming Mouse",
+        "category": "Electronics",
+        "price": 0,
+        "stock": 10
+    },
+    {
+        "id": "p005",
+        "name": "Air Pods",
+        "category": "Accessories",
+        "price": -1,
+        "stock": -1
+    },
+    {
+        "id": "p006",
+        "name": "Ear Phones",
+        "category": "Accessories",
+        "price": 9999999999999999999999999999999999,
+        "stock": 9999999999999999999999999999999999
+    }
+]
