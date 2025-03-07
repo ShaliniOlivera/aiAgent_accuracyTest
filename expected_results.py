@@ -5,7 +5,7 @@ import json
 base_path = os.path.dirname(os.path.abspath(__file__))
 json_path = os.path.join(base_path, "inventory", "inventory.json")
 
-# Check if the inventory.json file exists before loading
+# Check if the inventory.json file exists
 if not os.path.exists(json_path):
     raise FileNotFoundError(f"\u274c Inventory file not found: {json_path}")
 

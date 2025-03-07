@@ -2,7 +2,7 @@ import requests
 import json
 from config import API_URL
 
-SIMILARITY_THRESHOLD = 85
+#SIMILARITY_THRESHOLD = 85
 def send_request(test_input):
     
     request_data = {
