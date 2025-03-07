@@ -25,8 +25,13 @@ expected_results = {
         if product.get("category") == "Electronics" and product.get("stock", 0) > 0
     ]) or "No electronics found",
 
-    "all": ", ".join([
+    "all_price": ", ".join([
         f"{product['name']} ({product['price']})" for product in product_data
+        if product.get("stock", 0) > 0
+    ]) or "No products found",
+    
+    "all": ", ".join([
+        f"{product['name']}" for product in product_data
         if product.get("stock", 0) > 0
     ]) or "No products found"
 
