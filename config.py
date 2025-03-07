@@ -7,16 +7,14 @@ from sentence_transformers import SentenceTransformer
 API_URL = "https://ce54-2001-fd8-f514-ea52-1547-40f2-4175-ba97.ngrok-free.app/google-chat/webhook"
 
 SIMILARITY_THRESHOLD = 85 
-# Set up paths
+# paths
 base_path = os.path.dirname(os.path.abspath(__file__))
 parent_path = os.path.dirname(base_path)
 test_cases_path = os.path.join(base_path, "test_cases.xlsx")
 
-# Create test_results folder in the same level as "scope"
+# tes results
 results_folder = os.path.join(parent_path, "test_results")
 os.makedirs(results_folder, exist_ok=True)
-
-# Generate timestamped results file path inside test_results folder
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 results_path = os.path.join(results_folder, f"test_results_{timestamp}.xlsx")
 
